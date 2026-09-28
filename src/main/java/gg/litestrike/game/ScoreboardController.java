@@ -67,7 +67,7 @@ public class ScoreboardController {
 			return;
 		}
 
-		Component title = text("LITESTRIKE").color(NamedTextColor.GREEN).decoration(TextDecoration.BOLD, true)
+		Component title = text("LIGHTSTRIKE").color(NamedTextColor.GREEN).decoration(TextDecoration.BOLD, true)
 				.append(text(" \uE100").color(NamedTextColor.WHITE));
 		Objective obj = sb.registerNewObjective("main", Criteria.DUMMY, title);
 		obj.setDisplaySlot(DisplaySlot.SIDEBAR);
